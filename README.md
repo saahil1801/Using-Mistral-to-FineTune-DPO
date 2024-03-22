@@ -1,6 +1,6 @@
 # Using-Mistral-to-FineTune-DPO
 
-      
+![mistraldpoo](https://github.com/saahil1801/Using-Mistral-to-FineTune-DPO/assets/84408557/92dd9b26-f693-4729-ac17-38d31522700b)
 
 
 Witness the application of the DPO method in action, implemented on the GPTQ quantized Mistral OpenHermes model.Delve into the comprehensive process involved in training the model using the UltraFeedback dataset, highlighting the key steps and considerations throughout.
