@@ -12,8 +12,8 @@ Witness the application of the DPO method in action, implemented on the GPTQ qua
 - [How to Run the Studio](#how-to-run-the-studio)
 - [Basic Architecture Overview ](#basic-architecture-overview)
   - [config.py](#configpy)
-  - [create_data.py](#createdatapy)
-  - [dpo_train.py](#dpotrainpy)
+  - [create_data.py](#create_datapy)
+  - [dpo_train.py](#dpo_trainpy)
   - [inference.py](#inferencepy)
 - [Conclusion](#Conclusion)
 
