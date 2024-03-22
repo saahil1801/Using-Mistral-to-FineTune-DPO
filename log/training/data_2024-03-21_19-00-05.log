@@ -1,0 +1,9 @@
+2024-03-21 19:00:06,003 - INFO - Loaded tokenizer
+2024-03-21 19:00:06,003 - INFO - Creating dataset from HuggingFaceH4/ultrafeedback_binarized with split train_prefs
+2024-03-21 19:00:06,003 - INFO - Loading dataset HuggingFaceH4/ultrafeedback_binarized with split train_prefs
+2024-03-21 19:00:11,603 - INFO - Downloaded Model
+2024-03-21 19:00:13,412 - INFO - Downloaded Model_Reference
+2024-03-21 19:00:13,413 - INFO - Peft Config Initialized
+2024-03-21 19:00:13,615 - INFO - Training arguments are set
+2024-03-21 19:06:09,747 - INFO - Model is trained
+2024-03-21 19:06:09,871 - INFO - Model is saved
