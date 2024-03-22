@@ -8,11 +8,15 @@ Witness the application of the DPO method in action, implemented on the GPTQ qua
 ## Table of Contents
 - [What is DPO?](#what-is-dpo-)
 - [DPO Performance](#dpo-performance)
-  - [Prerequisites](#prerequisites)
-  - [Steps](#steps)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Datasets Required for DPO](#datasets-required-for-dpo)
+- [How to Run the Studio](#how-to-run-the-studio)
+- [Basic Architecture Overview ](#basic-architecture-overview)
+  - [config.py](#config.py)
+  - [create_data.py](#create_data.py)
+  - [dpo_train.py](#dpo_train.py)
+  - [inference.py](#inference.py)
+- [Conclusion](#Conclusion)
+
 
 ## What is DPO ?
 
