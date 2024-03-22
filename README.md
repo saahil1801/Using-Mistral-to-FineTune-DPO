@@ -11,10 +11,10 @@ Witness the application of the DPO method in action, implemented on the GPTQ qua
 - [Datasets Required for DPO](#datasets-required-for-dpo)
 - [How to Run the Studio](#how-to-run-the-studio)
 - [Basic Architecture Overview ](#basic-architecture-overview)
-  - [config.py](#configpy)
-  - [create_data.py](#create_datapy)
-  - [dpo_train.py](#dpo_trainpy)
-  - [inference.py](#inferencepy)
+  - [config.py](#Configurationsinconfigpy)
+  - [create_data.py](#DataPreprocessingincreate_datapy)
+  - [dpo_train.py](#trainingindpo_trainpy)
+  - [inference.py](#Testingatinferencepy)
 - [Conclusion](#Conclusion)
 
 
@@ -90,11 +90,11 @@ This command will execute the inference.py script, allowing you to perform infer
 
 
 
-### config.py:
+### Configurations in config.py:
 
 This file likely contains configurations for your machine learning model, possibly in the Pydantic-based format. These configurations hold varied settings for model architecture, hyperparameters, data paths, etc.
 
-### create_data.py: 
+### DataPreprocessingincreate_data.py: 
 This script is used for data preprocessing. It takes raw data as input, preprocesses  and returns the formatted dataset ready for training.
 
 ```python
@@ -124,7 +124,7 @@ def dpo_data(dataset_id, split='train_prefs') -> Dataset :
 The dataset specified by dataset_id and split is loaded.A nested function, simplify_record, is defined and then applied to the entire dataset using the .map method. This step retains only the prompt, chosen, and rejected columns, necessary for DPO training, and removes all other columns.
 
 
-## dpo_train.py: 
+## Training in dpo_train.py: 
 This script handles the training process of your machine learning model.
 
 ### 1. __init__(self, config: Config)
@@ -232,7 +232,7 @@ if __name__ == '__main__':
     dpo_trainer.train()
 ```
 
-## inference.py:
+## Testingatinference.py:
 
 The inference.py script is designed for generating text using the pretrained language model,, that has been fine-tuned and saved previously.It initializes with configurations, including logging setup, and loads the tokenizer and model based on the specified settings. The script configures generation parameters (like sampling methods and token limits) and processes a given prompt for inference. Finally, it generates and prints the model's output, demonstrating the model's ability to produce contextually relevant text from the input prompt in a streamlined inference pipeline.
 
