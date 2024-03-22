@@ -24,6 +24,8 @@ The recent paper Direct Preference Optimization by Rafailov, Sharma, Mitchell et
 
 What this means is : DPO simplifies control by treating the task as a classification problem. Concretely, it uses two models: the trained model (or policy model) and a copy of it called the reference model. During training, the goal is to make sure the trained model outputs higher probabilities for preferred answers than the reference model. Conversely, we also want it to output lower probabilities for rejected answers. It means we’re penalizing the LLM for bad answers and rewarding it for good ones.
 
+![image](https://github.com/saahil1801/Using-Mistral-to-FineTune-DPO/assets/84408557/2e7a2560-321a-4e0f-a25e-5cac261ba847)
+
 ## DPO Performance
 
 DR summarization win rates vs. human-written summaries, using GPT-4 as evaluator. DPO exceeds PPO’s best-case performance on summarization, while being more robust to changes in the sampling temperature
