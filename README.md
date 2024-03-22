@@ -16,7 +16,8 @@ What this means is : DPO simplifies control by treating the task as a classifica
 
 DR summarization win rates vs. human-written summaries, using GPT-4 as evaluator. DPO exceeds PPO’s best-case performance on summarization, while being more robust to changes in the sampling temperature
 
-![image](https://github.com/saahil1801/Using-Mistral-to-FineTune-DPO/assets/84408557/172a152b-5f0c-4f44-b54a-638690495003)
+![image](https://github.com/saahil1801/Using-Mistral-to-FineTune-DPO/assets/84408557/5f772c39-b337-42a4-b7dd-e80592ff5c25)
+
 
 ## Datasets Required for DPO 
 
@@ -29,7 +30,7 @@ prompt - this consists of the context prompt which is given to a model at infere
 chosen - contains the preferred generated response to the corresponding prompt
 rejected - contains the response which is not preferred or should not be the sampled response with respect to the given prompt
 
-![image](https://github.com/saahil1801/Using-Mistral-to-FineTune-DPO/assets/84408557/dbee6c05-7229-405f-ae5f-30fa4fa06608)
+![image](https://github.com/saahil1801/Using-Mistral-to-FineTune-DPO/assets/84408557/6b710c29-6531-40a4-9cd3-0b25417ce759)
 
 ## How to Run the Studio
 
@@ -71,7 +72,9 @@ This command will execute the inference.py script, allowing you to perform infer
 
 ## Basic Architecture Overview 
 
-![Pink Modern Abstract Business Flowchart Graph ](https://github.com/saahil1801/Using-Mistral-to-FineTune-DPO/assets/84408557/b49b23cd-2ab5-4a6c-af3a-252fb823e3dd)
+![DPO Workflow ](https://github.com/saahil1801/Using-Mistral-to-FineTune-DPO/assets/84408557/43fc2500-ea01-4542-991e-c01c4be95483)
+
+
 
 ### config.py:
 
