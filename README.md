@@ -5,6 +5,14 @@
 
 Witness the application of the DPO method in action, implemented on the GPTQ quantized Mistral OpenHermes model.Delve into the comprehensive process involved in training the model using the UltraFeedback dataset, highlighting the key steps and considerations throughout.
 
+## Table of Contents
+- [What is DPO?](#what-is-dpo-)
+- [DPO Performance](#dpo-performance)
+  - [Prerequisites](#prerequisites)
+  - [Steps](#steps)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## What is DPO ?
 
