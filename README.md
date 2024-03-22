@@ -261,8 +261,8 @@ If your phone is not turning on, first check the battery. If the battery is not 
 
 In this studio, we've illuminated the pioneering application of Direct Preference Optimization (DPO) on the quantized GPTQ Mistral OpenHermes model, capitalizing on the robust UltraFeedback dataset .By employing a dual-model strategy—leveraging both a trained policy model and its reference counterpart—DPO ensures that preferred responses are more probable, inherently penalizing undesirable outputs. 
 
-This approach not only surpasses previous best-case outcomes in tasks like summarization when compared to methods like PPO but also exhibits remarkable resilience against variations in sampling temperature.This Studio encapsulates the strategic application of DPO in enhancing Mistral , emphasizing the simplicity and efficacy of this method in elevating model performance.🚀
+This approach not only surpasses previous best-case outcomes in tasks like summarization when compared to methods like PPO but also exhibits remarkable resilience against variations in sampling temperature.This Studio encapsulates the strategic application of DPO in enhancing Mistral , emphasizing the simplicity and efficacy of this method in elevating model performance.
 
-To check out and play around with the code itself, duplicate this Studio by clicking "Open Template" at the top of this page. This will make a copy of all the code, including the environment, so that you can get started without any additional setup steps.
+To check out and play around with the code itself, duplicate this Studio by clicking "Open Template" 🚀 at the top of this page. This will make a copy of all the code, including the environment, so that you can get started without any additional setup steps.
 
 
