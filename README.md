@@ -11,10 +11,10 @@ Witness the application of the DPO method in action, implemented on the GPTQ qua
 - [Datasets Required for DPO](#datasets-required-for-dpo)
 - [How to Run the Studio](#how-to-run-the-studio)
 - [Basic Architecture Overview ](#basic-architecture-overview)
-  - [config.py](#config.py)
-  - [create_data.py](#create_data.py)
-  - [dpo_train.py](#dpo_train.py)
-  - [inference.py](#inference.py)
+  - [config.py](#configpy)
+  - [create_data.py](#createdatapy)
+  - [dpo_train.py](#dpotrainpy)
+  - [inference.py](#inferencepy)
 - [Conclusion](#Conclusion)
 
 
